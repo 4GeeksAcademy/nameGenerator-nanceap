@@ -13,7 +13,7 @@ window.onload = function () {
   let noun = ["jogger", "racoon"];
 
   for (let i = 0; i < pronoun.length; i++) {
-    for (let j = 0; j < adj.length; j++) {
+    for (let j = 0; j < adjective.length; j++) {
       for (let k = 0; k < noun.length; k++) {
         console.log(pronoun[i] + adjective[j] + noun[k] + ".com");
       }
